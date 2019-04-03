@@ -25,7 +25,7 @@ class App extends Component {
         })
     }
     render() {
-        let messageList = this.state.submitedText.map((i, index) => <div class=" border border-dark w-100 "><div class="border" >{i}</div><p>{this.state.curTime}</p></div>)
+        let messageList = this.state.submitedText.map((i, index) => <div className=" border border-dark w-100 "><div className="border" >{i}</div><p>{this.state.curTime}</p></div>)
         return (
             <>
                     <div>
